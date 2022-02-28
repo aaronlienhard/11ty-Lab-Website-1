@@ -1,29 +1,36 @@
 ---
-title: This is my third post.
-description: This is a post on My Blog about win-win survival strategies.
-date: 2018-08-24
+title: The Power of Docker
+description: Third dev.to blog post about Docker.
+date: 2022-02-27
 tags:
-  - second tag
-  - posts with two tags
+  - Docker
+  - Web Components
 layout: layouts/post.njk
 ---
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+## What is Docker?
 
-``` js/2/4
-// this is a command
-function myCommand() {
-	let counter = 0;
+- Docker is an open platform that allows the user to virtually create different software packages in things called, "containers"
 
-	counter++;
+## Why is Docker so powerful?
 
-}
+- Docker is so powerful because you're able to very easily create software and play around with it very quickly without having to worry about a lot of the backend part of the code and how getting the server up and running works
 
-// Test with a line break above this line.
-console.log('Test');
-```
+## How to use 'Play with Docker'
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+- To start with 'Play with Docker' you'll need to head over to the [website](https://labs.play-with-docker.com/)
 
-## Section Header
+- Once you're on the website, create an account and login. Once you log in the green "login" button on the homepage will change to say "start"
 
-Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
+![Docker Homepage](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/o0w9zxwfabpckrmy6zm9.png)
+
+- Once you hit start, you'll see a page that looks like this:
+
+![Play with Docker Main Page](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/8z969yu3saae1zfywq04.png)
+
+- Now to start playing around with Docker you can just hit the "+ Add New Instance" button" and you'll start the Docker server and the webpage will look like this:
+
+![Docker New Instance](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/rzkqcdkqwzdy6810jcvt.png)
+
+- Now you're all ready to play around with Docker, have fun!
+
+## Creating a DockerFile for our NASA Image Search repo
